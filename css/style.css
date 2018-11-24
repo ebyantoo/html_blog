@@ -1,0 +1,192 @@
+#top-bar {
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    width: 100%
+}
+
+.image {
+    float: left;
+}
+
+.image img {
+    width: 60px;
+    height: 60px;
+    line-height: 60px; 
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#navigasi ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin-left: 90px;
+}      
+
+#navigasi ul {
+    float: right;
+    margin-right: 100px;
+}
+
+#navigasi ul li a {
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navigasi ul li a:hover {
+    color: chocolate
+}
+
+#banner-slide img {
+    width: 100%;
+    height: 550px;
+}
+
+.product ul li img{
+    width: 70px;
+    align-content: center;
+}
+
+.product ul li{
+    width: 300px;
+    align-content: center;
+    margin-left: 170px;
+    margin-top: 20px;
+    float: left;
+}
+
+.product ul li h3{
+    
+    font-size: 15pt;
+    align-content: center;
+    font-weight: bold; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product ul li p{
+   color: green;
+   font-weight: bold; 
+   text-align: justify;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 30px;
+   align-content: center;
+}
+.product {
+    margin-left: 0px;
+    margin-top: -16px;
+    background: blanchedalmond;
+    text-align: justify;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+ .header_product h1{
+    text-align: center;
+    font-size: 30pt;
+}
+.header_product {
+    background-color: blanchedalmond;
+    margin-top: -4px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+#content  {
+    
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    border: 1px solid #dddddd;
+}
+
+.artikel h1 {
+    margin-top: 10px;
+    font-size: 30pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted ;
+
+}
+
+.artikel {
+    width: 1080px;
+    margin-left: 30px;
+    float: left;
+}
+
+.artikel p{
+   text-align: justify;
+}
+
+#sidebar {
+    float: right;    
+    margin-right: 110px;
+    margin-top: 40px;
+
+}
+
+#sidebar ul li{
+    line-height: 40px;
+    border-bottom: 1px solid gray;
+
+}
+
+#sidebar ul li:hover{
+    animation: motion-sidebar 1s forwards;
+  }
+  
+
+#sidebar ul li a{
+    color: gray;
+    font-weight: bold;  
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover{
+  background-color: rgba(0, 0, 0, 0, 5);
+}
+
+#footer {
+    padding: 25px;
+    background-color: black;
+    border-top: #dddddd;
+    text-align: center;
+
+}
+
+#footer table td{
+    line-height: 30px;
+    color: #dddddd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+#footer ul li{
+  display: inline-block;
+  margin-left: 75px;
+
+}
+
+#copyright {
+    background-color:  gray;
+    text-align:  center;
+}
+
+
+
+/* animasi */
+@keyframes motion-sidebar{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+

@@ -1,80 +1,184 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>HTML BLOG</title>
+    <title>Membuat Template Website</title>
+    <meta name="description" content="Membuat Website Sederhana">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css">
 </head>
-<body>
-    <table>
-        <td><a href="index.html">HOME</a></td>
-        <td><a href="#javascript">JAVASCRIPT</a></td>
-        <td><a href="#materi">MATERI</a></td>
-        <td><a href="#profile">PROFILE</a></td>
-        <td></td>
-    </table>
 
-    <img src="C:\Users\erbi\Desktop\html_blog\photo.jpeg" alt="" width="100%" height="auto">
-    <h1>Belajar Membuat  HTML Blog</h1>
+<body class="i">
+    <div id="top-bar">
+        <!-- TOP BAR -->
+        <div class="image">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        <div id="navigasi">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- AKHIR TOP BAR -->
 
-    <h2>FULL STACK JAVASCRIPT</h2>
+    <div id="banner-slide">
+        <img src="image/truk.jpg" alt="gambar banner">
+    </div>
+    <div class="header_product">
+        <h1>PRODUK</h1>
+    </div>
 
-    <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </p>
+    <div class="product">
 
-    <h3>Keuntungan Menjadi Fullstack</h3>
-
-    <p>
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-    </p>
-    <ol>
-        <li>Masa Depan Cerah</li>
-        <li>Skill pada jajaran top dunia</li>
-        <li>Banyak perusahaan startup membutuhkan skill</li>
-    </ol>
-    
-
-    <h2>Kenapa Harus Javascript</h2>
-
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>GIT</li>
-        <li>BOOTSTRAP</li>
-        <li>JAVASCRIPT</li>
-        <li>MONGODB</li>
-        <li>NODE JS</li>
-        <li>REACT JS</li>
-    </ul>
-
-    <h2>Vidio</h2>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HwK6AcEProM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    
-    <h2>Profile</h2>
-
-    <img src="" alt="">
-
-    <p>
-        website : <a href="" target="_blink">LINK</a><br>
-        Email : <a href="">Kontak</a>
-    </p>
-
-    <h2>Komentar</h2>
-
-    <form action="">
-        <input type="text" placeholder="Nama Anda  : ">
-        <input type="text" placeholder="Email Anda : ">
-        <br>
-        <textarea name="" id="" cols="60" rows="10"></textarea>
-
-        <button>Kirim</button>
+        <ul>
+            <li>
+                <h3>PEMBIYAAN INVESTASI</h3>
+                <img src="image/ico1.svg" alt="">
+                <p>'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over
+                    the years, sometimes by accident, sometimes on purpose (injected humour and the like). </p>
+            </li>
+            <li>
+                <h3>PEMBIYAAN MULTIGUNA</h3>
+                <img src="image/ico1.svg" alt="">
+                <p>'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over
+                    the years, sometimes by accident, sometimes on purpose (injected humour and the like). </p>
+            </li>
+            <li>
+                <h3>PEMBIYAAN MODAL KERJA</h3>
+                <img src="image/ico1.svg" alt="">
+                <p>'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over
+                    the years, sometimes by accident, sometimes on purpose (injected humour and the like). </p>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
 
 
-    </form>
+    <div id="content">
+        <div class="artikel">
+            <h1>Artikel</h1>
+            <br>
+            <p>
+                is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+                and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions
+                have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the
+                like).
+
+            </p>
+            <br>
+            <p>
+                is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+                and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions
+                have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the
+                like).
+
+            </p>
+
+
+        </div>
+
+
+        <!-- SIDEBAR -->
+        <div id="sidebar">
+            <ul>
+                <li><a href="">Berita Pertama</a></li>
+                <li><a href="">Berita Pertama</a></li>
+                <li><a href="">Berita Pertama</a></li>
+                <li><a href="">Berita Pertama</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id=footer>
+        <ul>
+            <li>
+                <table>
+                    <tr>
+                        <td>No TELEPHONE : </td>
+                        <td>087780606307</td>
+
+                    </tr>
+                    <tr>
+                        <td>EMAIL : </td>
+                        <td>erbiantonug@gmail.com</td>
+
+                    </tr>
+                    <tr>
+                        <td>LOKASI :</td>
+                        <td>Jl Arjuna 3 D 19 no 7</td>
+
+                    </tr>
+
+
+                </table>
+            </li>
+
+            <li>
+                <table>
+                    <tr>
+                        <td>No TELEPHONE : </td>
+                        <td>087780606307</td>
+
+                    </tr>
+                    <tr>
+                        <td>EMAIL : </td>
+                        <td>erbiantonug@gmail.com</td>
+
+                    </tr>
+                    <tr>
+                        <td>LOKASI :</td>
+                        <td>Jl Arjuna 3 D 19 no 7</td>
+
+                    </tr>
+
+
+                </table>
+            </li>
+
+
+
+            <li>
+                <table>
+                    <tr>
+                        <td>No TELEPHONE : </td>
+                        <td>087780606307</td>
+
+                    </tr>
+                    <tr>
+                        <td>EMAIL : </td>
+                        <td>erbiantonug@gmail.com</td>
+
+                    </tr>
+                    <tr>
+                        <td>LOKASI :</td>
+                        <td>Jl Arjuna 3 D 19 no 7</td>
+
+                    </tr>
+
+
+                </table>
+            </li>
+        </ul>
+
+    </div>
+
+    <div id="copyright">
+        <p>Copyright by </p>
+    </div>
 </body>
+
 </html>
