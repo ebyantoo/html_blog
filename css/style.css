@@ -37,6 +37,50 @@
     color: chocolate
 }
 
+#navigasi .listdropdown {
+    display: none;
+    position: absolute;
+    width: 300px;
+    color: gray;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0, 0.3);
+    margin-top: -30px;
+    margin-right: 5px;
+    
+}
+
+#navigasi .listdropdown a{
+   display: block;
+   line-height: 40px;
+} 
+
+#navigasi .listdropdown a:hover{
+    background-color: bisque;
+ } 
+
+ #navigasi .dropdown{
+   position: relative;
+   display: inline-block;
+ } 
+
+ #navigasi .dropdown:hover .listdropdown{
+    animation: dropdownanimasi 1s forwards;
+    display: block;
+  } 
+ 
+  @keyframes dropdownanimasi {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+  }
+  
+
 #banner-slide img {
     width: 100%;
     height: 550px;
@@ -154,6 +198,7 @@
     background-color: black;
     border-top: #dddddd;
     text-align: center;
+    
 
 }
 
